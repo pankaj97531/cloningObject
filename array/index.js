@@ -29,3 +29,12 @@ var mapArr = Array.from(map);
 var mapFlatArr = mapArr.flat();
 console.log(mapArr);
 console.log(mapFlatArr);
+
+var arrF1 = [1,2,[1,2,[1,1,2,3,4,5],7,9],5,4];
+console.log(arrF1);
+var arrFlat1 = arrF1.flat();
+var arrMoreFlat = arrFlat1.flat();
+console.log(arrF1);
+console.log(arrFlat1);
+console.log(arrMoreFlat);
+
